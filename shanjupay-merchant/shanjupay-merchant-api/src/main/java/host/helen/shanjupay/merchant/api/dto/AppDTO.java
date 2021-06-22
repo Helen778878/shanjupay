@@ -1,18 +1,17 @@
 package host.helen.shanjupay.merchant.api.dto;
 
 
-import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+
+import java.io.Serializable;
 
 @Data
 @ApiModel(value="AppDTO", description="")
 public class AppDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
-
-    private Long id;
 
     private String appId;
 
